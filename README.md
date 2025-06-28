@@ -10,24 +10,13 @@ I’m following along with the tutorials, building projects, experimenting with 
 
 I'm learning GenAI concepts like:
 - LLMs (Large Language Models)
-- Prompt Engineering
 - LangChain
-- Embeddings & Vector Databases (like FAISS, Pinecone)
-- Chatbots & RAG (Retrieval-Augmented Generation)
+- Chatbots 
 - Streamlit / Gradio for UI
 
----
 
-## 🧠 Why This Repo Exists
-
-This repo is:
-- My notebook 💡
-- My playground 🧪
-- My portfolio 💼
 
 I'm using it to **track progress**, **practice coding**, and **share what I build** while learning GenAI from scratch.
 
 ---
-
-## 📁 Repo Structure
 
