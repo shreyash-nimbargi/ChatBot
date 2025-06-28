@@ -1,1 +1,33 @@
-🧠 Generative AI Learning PlaylistWelcome to the Generative AI Learning Playlist repository! This is your go-to place for understanding the exciting world of Generative AI, from the very basics to how advanced models like ChatGPT actually work.🎯 About This PlaylistThis playlist is a curated collection of videos designed to demystify Generative AI. Whether you're a complete beginner or just looking to solidify your understanding, these videos aim to break down complex topics into easy-to-digest concepts.What you can expect:✨ Foundational Concepts: We'll start from the ground up, explaining what Generative AI truly is.Under the Hood of ChatGPT: Dive deep into how models like ChatGPT generate human-like responses.🤖 AI Agents: Learn about the fascinating world of AI agents and their capabilities.🛠️ Building Blocks: Get insights into the components that make these powerful AIs possible.My goal is to make these topics accessible and understandable, even if you don't have a background in coding. We'll focus on common sense explanations and the "first thought principle" to make sure the concepts stick!🚀 How to Use This RepositoryThis repository serves as a hub for the video playlist. You'll find:🔗 Video Links: Direct links to each video in the playlist, organized for a smooth learning path.📝 Video Notes: Detailed notes for each video (like the ones we made for the first video!), helping you review key concepts or quickly grasp main ideas without re-watching.I recommend going through the videos in order, as they build upon each other conceptually. Use the accompanying notes to reinforce your learning!📚 Topics Covered (Examples from the Playlist)Here are some of the exciting topics you'll explore in this playlist:Understanding Generative AI (Gen AI): What it is and how it differs from traditional AI.How ChatGPT Generates Answers: Debunking myths and explaining next-word prediction.The Role of Tokenization: How computers process human language into numbers.Deconstructing "GPT": What do "Generative," "Pre-trained," and "Transformer" really mean?Why AI Answers Vary: Insights into the probabilistic nature of AI responses....and much more as the playlist grows!🙏 Contributions & FeedbackI'm always looking to improve! If you have suggestions for new topics, notice any errors, or just want to provide feedback on the notes or playlist structure, please feel free to:Open an IssueSubmit a Pull RequestLet's learn and build amazing things with AI together!📄 LicenseThis project is open-sourced under the MIT License (or choose your preferred license).(Note: If you plan to add a license file, you'd typically create a file named LICENSE in your repo and put the license text there. The [MIT License](LICENSE) link above would then point to it.)
+# 🤖 GenAI Learning Playlist 🚀
+
+This repo is my personal learning journey from a **Generative AI**.  
+I’m following along with the tutorials, building projects, experimenting with tools like OpenAI, LangChain, Hugging Face, and more — and documenting everything here 📚💻
+
+---
+
+## 📺 I'm Learning
+
+
+I'm learning GenAI concepts like:
+- LLMs (Large Language Models)
+- Prompt Engineering
+- LangChain
+- Embeddings & Vector Databases (like FAISS, Pinecone)
+- Chatbots & RAG (Retrieval-Augmented Generation)
+- Streamlit / Gradio for UI
+
+---
+
+## 🧠 Why This Repo Exists
+
+This repo is:
+- My notebook 💡
+- My playground 🧪
+- My portfolio 💼
+
+I'm using it to **track progress**, **practice coding**, and **share what I build** while learning GenAI from scratch.
+
+---
+
+## 📁 Repo Structure
+
