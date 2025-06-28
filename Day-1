@@ -1,0 +1,23 @@
+Here are the notes for the video about Generative AI and how models like ChatGPT function, perfect for your GitHub! 🚀
+
+This video breaks down Gen AI and ChatGPT in a super clear way:
+
+* **Gen AI Series Intro**: This series explains how ChatGPT works, what AI agents are, and how to build them. It's designed to make complex topics easy to understand, even if you're new to coding! 🧠
+* **ChatGPT's Magic - Not Stored Answers!**:
+    * ❌ It doesn't store pre-written answers. That would be impossible with infinite questions and variations!
+    * 💡 It uses human-like reasoning, looking for patterns just like you'd predict the next number in a sequence.
+    * ➡️ It predicts one word at a time, based on the words before it, to build its answers.
+* **Tokens - How Computers "Read"**:
+    * 🔢 Computers understand numbers, not words. So, your text is turned into "tokens."
+    * 🔄 Each token (word or part of a word) gets a unique number.
+    * 🔍 ChatGPT finds patterns in these numbers and predicts the next number, which then becomes the next word!
+* **Generative AI Explained**:
+    * ✨ "Gen AI" means **Generative AI**. It can create *new* and *unique* answers, even if it's never seen that exact question before!
+* **GPT Breakdown**: "GPT" stands for **Generative Pre-trained Transformer**.
+    * **Generative**: Creates new content.
+    * **Pre-trained**: Trained on tons of data to understand and respond to related questions.
+    * **Transformer**: The architecture that turns input into desired outputs (like text to image or video).
+* **Why Answers Vary**: ChatGPT can give different answers to the same question because it's a "predictive model." It can find multiple possible patterns and probabilities for the next word.
+
+Basically, ChatGPT is trained to recognize number patterns from text, allowing it to predict the most likely next word and create fresh, coherent responses! 🤩
+http://googleusercontent.com/youtube_content/0
