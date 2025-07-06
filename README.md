@@ -1,9 +1,9 @@
-# ChatBot
+# ChatBot 🤖
 
 A React-based chatbot powered by Google Gemini AI (via `@google/generative-ai`).  
 Supports conversation with AI using a secure API key stored in environment variables.
 
-## Features
+## Features 🚀
 
 - Chat interface with AI responses
 - API key is kept secret using a `.env` file
