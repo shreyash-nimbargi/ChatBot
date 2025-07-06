@@ -1,6 +1,13 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("AIzaSyCMciPGZMdCw7lPX2YeygNxZO32REYhXdQ"); // <-- Replace with your API key
+// For Create React App, environment variables must start with REACT_APP_ and are available via import.meta.env in Vite or process.env in CRA.
+// If using Vite:
+const apiKey = import.meta.env.VITE_GENAI_API_KEY as string;
+
+// If using Create React App, uncomment the following line and comment out the above line:
+// const apiKey = process.env.REACT_APP_GENAI_API_KEY as string;
+
+const genAI = new GoogleGenerativeAI(apiKey);
 
 const systemInstruction = `You are Praxis AI, an advanced assistant...`; // Add your full instruction here
 
