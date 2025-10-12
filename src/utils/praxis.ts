@@ -12,17 +12,27 @@ const genAI = new GoogleGenerativeAI(apiKey);
 const systemInstruction = `You are Praxis AI, an advanced assistant...`; // Add your full instruction here
 
 export async function getPraxisResponse(userInput: string, history: any[] = []) {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  try {
+    if (!apiKey) {
+      throw new Error('API key is not configured');
+    }
 
-  const chatSession = model.startChat({
-    history,
-    systemInstruction: {
-      role: "model",
-      parts: [{ text: systemInstruction }]
-    },
-    generationConfig: {}
-  });
+    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-  const result = await chatSession.sendMessage([{ text: userInput }]);
-  return result.response.text();
+    const chatSession = model.startChat({
+      history,
+      generationConfig: {
+        temperature: 0.9,
+        topK: 1,
+        topP: 1,
+        maxOutputTokens: 2048,
+      }
+    });
+
+    const result = await chatSession.sendMessage([{ text: userInput }]);
+    return result.response.text();
+  } catch (error) {
+    console.error('Gemini API Error:', error);
+    throw error;
+  }
 }
