@@ -12,7 +12,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 const systemInstruction = `You are Praxis AI, an advanced assistant...`; // Add your full instruction here
 
 export async function getPraxisResponse(userInput: string, history: any[] = []) {
-  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
   const chatSession = model.startChat({
     history,
