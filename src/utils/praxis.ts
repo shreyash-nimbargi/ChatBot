@@ -4,8 +4,6 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 // If using Vite:
 const apiKey = import.meta.env.VITE_GENAI_API_KEY as string;
 
-// If using Create React App, uncomment the following line and comment out the above line:
-// const apiKey = process.env.REACT_APP_GENAI_API_KEY as string;
 
 const genAI = new GoogleGenerativeAI(apiKey);
 
