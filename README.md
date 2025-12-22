@@ -43,7 +43,7 @@ You can get your API key from [Google AI Studio](https://makersuite.google.com/a
 
 **Security Notes:**  
 - Never commit your `.env` file. It is already included in `.gitignore`.
-- If you accidentally commit an API key, revoke it immediately from Google Cloud Console and generate a new one.
+- If you accidentally commit an API key, revoke it immediately from Google AI Studio and generate a new one.
 
 ### 4. Start the Development Server
 
