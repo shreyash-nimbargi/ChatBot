@@ -27,14 +27,23 @@ npm install
 
 ### 3. Set Up Environment Variables
 
-Create a `.env` file in the project root:
+Create a `.env` file in the project root by copying the example file:
+
+```bash
+cp .env.example .env
+```
+
+Then edit the `.env` file and add your actual Google Generative AI API key:
 
 ```
-REACT_APP_GENAI_API_KEY=your_actual_api_key_here
+VITE_GENAI_API_KEY=your_actual_api_key_here
 ```
 
-**Note:**  
-Never commit your `.env` file. It is already included in `.gitignore`.
+You can get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey).
+
+**Security Notes:**  
+- Never commit your `.env` file. It is already included in `.gitignore`.
+- If you accidentally commit an API key, revoke it immediately from Google Cloud Console and generate a new one.
 
 ### 4. Start the Development Server
 
@@ -53,7 +62,8 @@ src/
     praxis.ts         # Gemini AI utility logic
   App.tsx             # Main app component
   ...
-.env                  # Environment variables (not committed)
+.env                  # Environment variables (not committed, create from .env.example)
+.env.example          # Template for environment variables
 ```
 
 ## Usage
