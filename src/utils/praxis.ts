@@ -15,7 +15,10 @@ export async function getPraxisResponse(userInput: string, history: any[] = []) 
       throw new Error('API key is not configured');
     }
 
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const model = genAI.getGenerativeModel({
+      model: "gemini-2.0-flash",
+      systemInstruction: systemInstruction
+    });
 
     const chatSession = model.startChat({
       history,
